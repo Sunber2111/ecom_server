@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
-const path = require('path');
+const path = require("path");
 
 dotenv.config();
 
@@ -51,19 +51,19 @@ app.use("/api", addressRoutes);
 app.use("/api", paymentRoutes);
 app.use("/api", orderRoutes);
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === "production") {
   // Set static folder
-  app.use(express.static('build'));
+  app.use(express.static("build"));
 
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "build", "index.html"));
   });
 }
 
-app.listen(3000, (err) => {
+app.listen(5000, (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("Listening on PORT ", 3000);
+    console.log("Listening on PORT ", 5000);
   }
 });
