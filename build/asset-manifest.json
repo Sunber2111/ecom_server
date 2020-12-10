@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd83285b.chunk.css",
+    "main.js": "/static/js/main.db7df424.chunk.js",
+    "main.js.map": "/static/js/main.db7df424.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.299ffd4a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.299ffd4a.js.map",
+    "static/css/2.0a73fdf3.chunk.css": "/static/css/2.0a73fdf3.chunk.css",
+    "static/js/2.02323211.chunk.js": "/static/js/2.02323211.chunk.js",
+    "static/js/2.02323211.chunk.js.map": "/static/js/2.02323211.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0a73fdf3.chunk.css.map": "/static/css/2.0a73fdf3.chunk.css.map",
+    "static/css/main.dd83285b.chunk.css.map": "/static/css/main.dd83285b.chunk.css.map",
+    "static/js/2.02323211.chunk.js.LICENSE.txt": "/static/js/2.02323211.chunk.js.LICENSE.txt",
+    "static/media/Capture.09593605.png": "/static/media/Capture.09593605.png",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/cap.6812f97a.png": "/static/media/cap.6812f97a.png",
+    "static/media/iPhone-12-blue.e2dc353e.png": "/static/media/iPhone-12-blue.e2dc353e.png",
+    "static/media/iPhone-12-red.18d3d023.png": "/static/media/iPhone-12-red.18d3d023.png",
+    "static/media/iPhone-12-siver.f95df361.png": "/static/media/iPhone-12-siver.f95df361.png",
+    "static/media/iPhone-12-white.926bf490.png": "/static/media/iPhone-12-white.926bf490.png",
+    "static/media/image1-1.15c3ba95.png": "/static/media/image1-1.15c3ba95.png",
+    "static/media/n.28922385.jpg": "/static/media/n.28922385.jpg",
+    "static/media/v1.5e03bd49.png": "/static/media/v1.5e03bd49.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.299ffd4a.js",
+    "static/css/2.0a73fdf3.chunk.css",
+    "static/js/2.02323211.chunk.js",
+    "static/css/main.dd83285b.chunk.css",
+    "static/js/main.db7df424.chunk.js"
+  ]
+}

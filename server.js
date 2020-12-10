@@ -50,11 +50,19 @@ app.use("/api", addressRoutes);
 app.use("/api", paymentRoutes);
 app.use("/api", orderRoutes);
 
+if (process.env.NODE_ENV === 'production') {
+  // Set static folder
+  app.use(express.static('client/build'));
 
-app.listen(5000, (err) => {
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+  });
+}
+
+app.listen(3000, (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("Listening on PORT ", 5000);
+    console.log("Listening on PORT ", 3000);
   }
 });
